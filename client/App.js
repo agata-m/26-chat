@@ -5,10 +5,10 @@ import io from 'socket.io-client';
 import styles from './App.css';
 
 //import componentów
-import MessageForm from './MessageForm';
-import MessageList from './MessageList';
-import UsersList from './UsersList';
-import UserForm from './UserForm';
+import MessageForm from './MessageForm.js';
+import MessageList from './MessageList.js';
+import UsersList from './UsersList.js';
+import UserForm from './UserForm.js';
 
 const socket = io('/');
 
