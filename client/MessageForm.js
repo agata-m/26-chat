@@ -22,7 +22,7 @@ class MessageForm extends Component {
         this.setState({text : e.target.value});
     }
 
-    return() {
+    render() {
         return(
             <form className={styles.MessageForm} onSubmit={e => this.handleSubmit(e)}>
                 <input
